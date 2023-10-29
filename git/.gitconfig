@@ -3,4 +3,7 @@
 	br = branch
 	ci = commit
 	st = status
-	nuke = git reset hard && git clean -fxd
+	nuke = !git reset --hard && git clean -fxd
+[user]
+	email = bebtio@gmail.com
+	name = bebtio
